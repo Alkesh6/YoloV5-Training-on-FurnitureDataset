@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 11
+names: ['Bed', 'Chair', 'Closet', 'Computer', 'Door', 'Monitor', 'Shelf', 'Sofa', 'Table', 'Window', 'shelf']
+
+roboflow:
+  workspace: project
+  project: interior-furniture
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project/interior-furniture/dataset/2
